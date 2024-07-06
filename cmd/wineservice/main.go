@@ -1,7 +1,10 @@
 package main
 
-import "wineservice/api"
+import (
+	"wineservice/api"
+)
 
 func main() {
 	api.StartServer()
+
 }
